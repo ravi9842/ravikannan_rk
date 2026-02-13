@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ultra Pro Valentine 2.0</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #0a0a0f;
+    color: #fff;
+    overflow-x: hidden;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #ff2d75, #7f00ff);
+    box-shadow: 0 0 40px rgba(255, 0, 120, 0.4);
+  }
+
+  .hero h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .hero p {
+    font-size: 16px;
+    opacity: 0.9;
+  }
+
+  .photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+  }
+
+  .photo-card {
+    width: 260px;
+    height: 340px;
+    border-radius: 18px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid rgba(255, 0, 120, 0.4);
+    box-shadow: 0 0 25px rgba(255, 0, 120, 0.3);
+    transition: 0.3s;
+  }
+
+  .photo-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px rgba(255, 0, 120, 0.6);
+  }
+
+  .photo-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .photo-label {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 6px 12px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 12px;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .steps {
+    padding: 40px 20px;
+    max-width: 700px;
+    margin: auto;
+  }
+
+  .steps h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #ff2d75;
+  }
+
+  .step-box {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 18px 20px;
+    border-radius: 14px;
+    margin-bottom: 14px;
+    border-left: 4px solid #ff2d75;
+  }
+
+  .step-title {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .step-desc {
+    font-size: 13px;
+    opacity: 0.8;
+    margin-top: 4px;
+  }
+
+  .emotional {
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .emotional h2 {
+    font-size: 28px;
+    margin-bottom: 16px;
+    color: #ff2d75;
+  }
+
+  .emotional p {
+    font-size: 16px;
+    line-height: 1.6;
+    opacity: 0.9;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    opacity: 0.6;
+  }
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+  <h1>My Ultra Pro Valentine</h1>
+  <p>Warning: Opening this page may cause smiling, blushing, and long-term attachment.</p>
+</section>
+
+<section class="photos">
+  <div class="photo-card">
+    <img src="img1.jpg" alt="">
+    <div class="photo-label">Moment I Fell</div>
+  </div>
+
+  <div class="photo-card">
+    <img src="img2.jpg" alt="">
+    <div class="photo-label">Heart Thief</div>
+  </div>
+
+  <div class="photo-card">
+    <img src="img3.jpg" alt="">
+    <div class="photo-label">My Forever View</div>
+  </div>
+</section>
+
+<section class="steps">
+  <h2>Funny Steps to Love Me (Scientifically Proven)</h2>
+
+  <div class="step-box">
+    <div class="step-title">Step 1: Look at me for 2 seconds.</div>
+    <div class="step-desc">If you smiled, congratulations — you’re already trapped.</div>
+  </div>
+
+  <div class="step-box">
+    <div class="step-title">Step 2: Think of one cute moment.</div>
+    <div class="step-desc">If your heart did a tiny “boop,” that’s the love engine starting.</div>
+  </div>
+
+  <div class="step-box">
+    <div class="step-title">Step 3: Imagine life without me.</div>
+    <div class="step-desc">If it felt illegal, uncomfortable, or emotionally laggy — that’s normal.</div>
+  </div>
+
+  <div class="step-box">
+    <div class="step-title">Step 4: Now imagine life with me.</div>
+    <div class="step-desc">Warm feeling detected. System recommends: keep me forever.</div>
+  </div>
+</section>
+
+<section class="emotional">
+  <h2>From My Heart</h2>
+  <p>
+    You are not just someone I love — you are the calm in my storms,  
+    the softness in my days, the laugh I wait for,  
+    and the reason even ordinary moments feel like they’re glowing.  
+    <br><br>
+    I don’t need perfect days.  
+    I just need you — your voice, your presence, your hand in mine.  
+    <br><br>
+    With you, everything feels like home.
+  </p>
+</section>
+
+<div class="footer">
+  Made with love, chaos, and 0% shame.
+</div>
+
+</body>
+</html>
